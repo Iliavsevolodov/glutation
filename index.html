@@ -9,7 +9,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="WELLLAB PRO SCIENCE — Липосомал Глутатион">
   <meta property="og:description" content="Наука о внутреннем балансе. 250 мг глутатиона, витамин Е, липосомальная технология.">
-  <meta property="og:image" content="https://media.greenwaystart.com/welllab-pro-sience/2947/Welllab_Glutation_070777-1.jpg">
+  <meta property="og:image" content="https://iliavsevolodov.github.io/glutation/assets/glutathione-bottle.webp">
   <title>Липосомал Глутатион — WELLLAB PRO SCIENCE | Greenway</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -327,7 +327,7 @@
         <div class="hero-aura" aria-hidden="true"></div><div class="hero-ring" aria-hidden="true"></div><div class="hero-ring ring-2" aria-hidden="true"></div>
         <div class="hero-outline" aria-hidden="true">GSH</div>
         <div class="hero-shadow" aria-hidden="true"></div>
-        <img class="hero-bottle" id="heroBottle" src="assets/glutathione-bottle.webp" alt="Липосомал Глутатион WELLLAB PRO SCIENCE, флакон 60 таблеток" fetchpriority="high" width="509" height="990">
+        <img class="hero-bottle" id="heroBottle" src="assets/glutathione-bottle.webp?v=3" alt="Липосомал Глутатион WELLLAB PRO SCIENCE, флакон 60 таблеток" fetchpriority="high" width="509" height="990">
         <div class="hero-orbit-label" aria-hidden="true"><span>ДОЗИРОВКА<br><strong>250</strong><br>мг / день</span></div>
       </div>
       <div class="hero-metrics" aria-label="Краткие характеристики">
@@ -386,7 +386,7 @@
       </div>
       <div class="formula-grid">
         <div class="formula-primary reveal">
-          <img class="formula-bottle" src="assets/glutathione-bottle.webp" alt="Флакон добавки WELLLAB PRO SCIENCE — липосомал глутатион" loading="lazy" width="509" height="990">
+          <img class="formula-bottle" src="assets/glutathione-bottle.webp?v=3" alt="Флакон добавки WELLLAB PRO SCIENCE — липосомал глутатион" loading="lazy" width="509" height="990">
           <div class="formula-caption"><span>Welllab / 070777</span><h3>Чистая<br>логика<br>формулы.</h3><p>Глутатион + витамин Е в таблетках для рассасывания.</p></div>
         </div>
         <div class="formula-stats">
@@ -427,7 +427,7 @@
   <section class="bottom-cta" id="order" aria-labelledby="orderTitle">
     <div class="container cta-content">
       <div class="reveal"><span class="section-tag">WELLLAB PRO SCIENCE / 070777</span><h2 id="orderTitle">Выбирайте заботу <em>на уровне клетки.</em></h2><p>Липосомал Глутатион. Современная форма, продуманный состав и ежедневная антиоксидантная поддержка.</p><a class="gold-button" href="https://greenwayglobal.com/shop/brands/welllab-pro-sience/070777" target="_blank" rel="noopener noreferrer">Перейти к покупке <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20 20 4M7 4h13v13"/></svg></a><span class="price-note">Ориентировочная цена: 1 990 ₽ · Цена и наличие уточняются в магазине Greenway.</span></div>
-      <div class="cta-product reveal delay-1"><img src="assets/glutathione-bottle.webp" width="509" height="990" alt="Флакон липосомального глутатиона WELLLAB PRO SCIENCE" loading="lazy"></div>
+      <div class="cta-product reveal delay-1"><img src="assets/glutathione-bottle.webp?v=3" width="509" height="990" alt="Флакон липосомального глутатиона WELLLAB PRO SCIENCE" loading="lazy"></div>
     </div>
   </section>
 </main>
@@ -465,11 +465,7 @@
     items.forEach(function(el){observer.observe(el);});
   }else{items.forEach(function(el){el.classList.add('is-visible');});}
   document.getElementById('year').textContent=new Date().getFullYear();
-  // Fallback if the uploaded cut-out has not been published yet.
-  var fallback='https://media.greenwaystart.com/welllab-pro-sience/2947/Welllab_Glutation_070777-1.jpg';
-  document.querySelectorAll('img[src="assets/glutathione-bottle.webp"]').forEach(function(img){
-    img.addEventListener('error',function(){if(img.src.indexOf('glutathione-bottle.webp')!==-1){img.src=fallback;img.classList.add('is-fallback');}},{once:true});
-  });
+
 })();
 </script>
 </body>
